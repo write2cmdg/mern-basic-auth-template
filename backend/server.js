@@ -25,4 +25,15 @@ app.use(errorHandler);
 app.listen(port, () => console.log(`server listeng on port ${port}`))
 
 
+
+
+
+
+
 //nodemon npm run server 
+
+//.env file example:
+//      NODE_ENV=development
+//      PORT=8080
+//      MONGO_URI=mongodb+srv://write2cmdg:<password>@cluster0.g6qokzc.mongodb.net/collection
+//      JWT_SECRET=YourOwnSecretPhrase
