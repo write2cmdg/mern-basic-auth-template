@@ -55,7 +55,7 @@ const RegisterScreen = () => {
                 onChange={ (e) => setConfirmPassword(e.target.value) }
             ></Form.Control>
             </Form.Group>
-            <Button type='submit' variant='primary' className='mt-3'>Sign In</Button>
+            <Button type='submit' variant='primary' className='mt-3'>Sign Up</Button>
             <Row className='py-3'>
                 <Col>
                     Already have an account? <Link to='/login'>Sign in here.</Link>
