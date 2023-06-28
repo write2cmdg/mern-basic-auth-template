@@ -21,6 +21,7 @@ const Header = () => {
         try {
             await logoutApiCall().unwrap()
             dispatch(clearCredentials())
+            toast.success("You've been successfully logged out")
             navigate('/')
         } catch (err) {
            toast.error(err) 
